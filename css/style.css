@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  font-family: var(--font2);
+  /* background-color: cyan; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-left {
+  font-size: 41px;
+  display: flex;
+}
+.nav-left a {
+  text-decoration: none;
+  color: rgb(97, 94, 94);
+  margin: 30px;
+  font-family: var(--font1);
+  transition: all 0.3s ease-in-out;
+  font-size: 30px;
+  font-weight: bold;
+}
+.nav-left ul {
+  display: flex;
+  align-items: center;
+  margin: 0px 78px;
+}
+.nav-left ul li {
+  list-style: none;
+  transition: all 0.3s ease-in-out;
+}
+.nav-left ul li a:hover {
+  color: var(--main-bg-color);
+  /* background-color: rgb(185, 185, 212);
+    border-radius: 200px; */
+  font-weight: bolder;
+}
+.nav-left span {
+  padding-top: 2px;
+}
+.logo-img {
+  width: 96px;
+}
+.content {
+  height: 340px;
+  /* background-color: rgb(212, 197, 209); */
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.content::after {
+  position: absolute;
+  content: "";
+  background: url(../img/11.svg);
+  width: 100%;
+  height: inherit;
+  z-index: -1;
+  opacity: 0.2;
+  border-radius: 20px;
+}
+.years{
+  position: absolute;
+  right: 25%;
+  z-index: 1;
+  font-size: 18px;
+  font-family: var(--font1);
+}
+.content-left {
+  font-family: var(--font1);
+  /* width: 55%; */
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  margin-left: 20px;
+}
+.content-right {
+  /* width: 45%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content-right img {
+  width: 251px;
+  border: 2px solid var(--main-bg-color);
+  border-radius: 150px;
+  margin-right: 10px;
+}
+.home-articles {
+  background-color: rgb(159 115 165 / 18%);
+  padding: 40px 20px;
+  border-radius: 6px;
+}
+.home-article {
+  display: flex;
+  position: relative;
+}
+.home-article-content a {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+.home-article img {
+  width: 288px;
+  border-radius: 4px;
+}
+.home-article-img {
+  padding: 10px 38px;
+}
+.home-article-content {
+  align-self: center;
+}
+.footer {
+  height: 27px;
+  background-color: var(--main-bg-color);
+  color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

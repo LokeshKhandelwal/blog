@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Roboto&display=swap");
+:root {
+  --main-bg-color: rgb(230, 25, 185);
+  --font1: "Baloo 2", cursive;
+  --font2: "Roboto", sans-serif;
+}
+.font1 {
+  font-family: var(--font1);
+}
+.font2 {
+  font-family: var(--font2);
+}
+.max-width1 {
+  max-width: 80vw;
+}
+.max-width2 {
+  max-width: 70vw;
+}
+.m-auto {
+  margin: auto;
+}
+.form-input {
+  padding: 3px 5px;
+  border: 2px solid black;
+  border-radius: 4px;
+  font: var(--font1);
+}
+.btn {
+  padding: 3px 7px;
+  font-size: 1px;
+  margin: 9px 2px 31px 6px;
+  border: 0.9px solid black;
+  border-radius: 30px;
+  font: var(--font1);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.btn:hover {
+  background-color: var(--main-bg-color);
+  color: lightcyan;
+  border-color: rgb(0, 0, 0);
+}
+.my-2 {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.form-box input,
+textarea {
+  width: 70%;
+  padding: 2px 4px;
+  margin: 7px;
+  font-size: 20px;
+  border-radius: 8px;
+  border: 2px solid var(--main-bg-color);
+}
+.contact-form {
+  height: 69vh;
+}
+.form-box button {
+  padding: 4px 12px;
+  font-size: large;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 5px 26vw;
+}
